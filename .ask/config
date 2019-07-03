@@ -1,0 +1,40 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.fec5c9b9-cded-4b4b-bf23-e8beb2f0b588",
+      "merge": {},
+      "resources": {
+        "manifest": {
+          "eTag": "43a5a2626ccc9a0a5fdce3304d837fab"
+        },
+        "interactionModel": {
+          "en-US": {
+            "eTag": "98dc116ad25134db939efd6a3fab6649"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:705799169873:function:ask-name-the-show",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-name-the-show",
+            "handler": "index.handler",
+            "revisionId": "47a81088-f4f1-4fec-b7ee-3333f02f6852",
+            "runtime": "nodejs8.10"
+          }
+        ]
+      },
+      "in_skill_products": [
+        {
+          "deploy_status": "Update",
+          "filePath": "isps/consumable/Five_Hint_Pack.json",
+          "productId": "amzn1.adg.product.69041885-57ce-477d-82d7-eccc9f9bee3a",
+          "eTag": "54db7b1eb36b20832029e8869153e44b"
+        }
+      ]
+    }
+  }
+}

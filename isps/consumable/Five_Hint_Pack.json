@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "type": "CONSUMABLE",
+  "referenceName": "Five_Hint_Pack",
+  "publishingInformation": {
+    "locales": {
+      "en-US": {
+        "name": "Five Hint Pack",
+        "summary": "The Five Hint Pack will give you five hints to help you solve our questions.",
+        "description": "The Five Hint Pack will give you five hints to help you solve our questions.",
+        "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/670a/c410fc1f1f2648e1a308fe8d08548ff4/APP_ICON?versionId=Z213VU40B0ZzfY8sSm7GLMlv01kXDf1j&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190703T140023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=291212ff0861e0f43c5026da786b956f992b989f2c431d639a4c4e1670cfc5d0",
+        "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/6848/a91f266a341f4eab8bb5853d290db468/APP_ICON_LARGE?versionId=be8IlOEdODL9kniUCFr7R2Ndssict7fq&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190703T140023Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190703%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=c01d1eb6e8788030628a57d3dc2a51fe7d6c08d8882e1242df1db77b976708af",
+        "examplePhrases": [
+          "TODO: REPLACE THIS WITH SAMPLE UTTERANCE FOR HOW USERS WILL BUY OR INVOKE THIS PRODUCT - 'Alexa, buy product name'  Or 'Alexa, play product name'"
+        ],
+        "keywords": [
+          "TODO: REPLACE THIS WITH ARRAY OF KEYWORDS TO BE USED FOR SEARCH INDEXING THE PRODUCT"
+        ],
+        "customProductPrompts": {
+          "purchasePromptDescription": "This will give you five hints to help you solve our questions.",
+          "boughtCardDescription": "You have successfully purchased the five hint pack!"
+        }
+      }
+    },
+    "distributionCountries": [
+      "US"
+    ],
+    "pricing": {
+      "amazon.com": {
+        "releaseDate": "2018-10-01T00:00Z",
+        "defaultPriceListing": {
+          "price": 0.99,
+          "currency": "USD"
+        }
+      }
+    },
+    "taxInformation": {
+      "category": "SOFTWARE"
+    }
+  },
+  "privacyAndCompliance": {
+    "locales": {
+      "en-US": {
+        "privacyPolicyUrl": "https://localhost/privacy.html"
+      }
+    }
+  },
+  "testingInstructions": "TODO: REPLACE THIS WITH TESTING INSTRUCTIONS FOR THE CERTIFICATION TEAM SO THEY KNOW HOW TO PURCHASE AND USE THIS PRODUCT",
+  "purchasableState": "PURCHASABLE"
+}
